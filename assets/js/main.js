@@ -131,7 +131,7 @@ $(window).on('load', function () {
 // Menu mobile burger
 
   $('.burger').on('click', function() {
-    $('.menu').toggleClass('active');
+    $('.burger span').toggleClass('active');
   })
 
   $('.close-menu-btn').on('click', function() {
